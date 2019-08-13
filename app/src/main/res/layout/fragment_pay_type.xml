@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#af000000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <View 
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@android:color/white"
+        android:id="@+id/ID_LAYOUT_PAY_ZFB"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/zhifubao_web" />
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="支付宝"
+            android:textColor="@color/line_black"
+            android:drawableRight="@drawable/arrow_you"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightgray"
+         android:visibility="visible"
+        />
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@android:color/white"
+        android:id="@+id/ID_LAYOUT_PAY_CM"
+        android:orientation="horizontal"
+         android:visibility="gone"
+        >
+        <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cm" />
+     <TextView
+            android:id="@+id/ID_TXT_PAY_CM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="中国移动 (特惠0.1元)"
+            android:textColor="@color/line_black"
+            android:drawableRight="@drawable/arrow_you"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightgray"
+         android:visibility="gone"
+        />    
+    
+    <!-- 联通支付 暂时屏蔽 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@android:color/white"
+        android:id="@+id/ID_LAYOUT_PAY_LT"
+        android:orientation="horizontal"
+        >
+        <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/wopay" />
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ID_TXT_PAY_LT"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="联通WO计费(连续计费)"
+            android:textColor="@color/line_black"
+            android:drawableRight="@drawable/arrow_you"
+            android:textSize="16sp" />
+    </LinearLayout>    
+    
+     <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightgray"
+        />    
+    
+    <!-- 联通支付 暂时屏蔽 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@android:color/white"
+        android:id="@+id/ID_LAYOUT_PAY_LT_ONE"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        >
+        <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/wopay" />
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ID_TXT_PAY_LT_ONE"
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="联通WO计费(单月有效)"
+            android:textColor="@color/line_black"
+            android:drawableRight="@drawable/arrow_you"
+            android:textSize="16sp" />
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />    
+
+</LinearLayout>

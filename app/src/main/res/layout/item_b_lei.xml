@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+    <ImageView
+            android:id="@+id/ID_IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_image"/>
+
+
+    <TextView
+            android:id="@+id/ID_TXT_TITLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="msq/没死库8支读教师化妆刷"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/text_size_12"
+            android:textStyle="bold"
+            android:typeface="normal"/>
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/id_tv_quan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
+                android:text="折扣"
+                android:gravity="center"
+                android:textColor="#ff3a3a3a"
+                android:textSize="@dimen/text_size_12"
+                android:typeface="normal"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/id_tv_quanhou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="统一%30"
+                android:textStyle="bold"
+                android:textColor="@color/text_blue999"
+                android:textSize="@dimen/text_size_12"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="统一%30"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ff3a3a3a"
+                android:textSize="@dimen/text_size_12"
+                android:typeface="normal"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="统一%30"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ff3a3a3a"
+                android:textSize="@dimen/text_size_12"
+                android:typeface="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/id_tv_qingtong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥279"
+                android:textStyle="bold"
+                android:textColor="@color/text_blue999"
+                android:textSize="@dimen/text_size_14"
+        />
+        <TextView
+                android:id="@+id/id_tv_baiyin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="¥279"
+                android:textSize="@dimen/text_size_12"
+        />
+
+        <TextView
+                android:id="@+id/id_tv_fukuan_nub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99999人付款"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_12"
+        />
+    </LinearLayout>
+
+    <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"/>
+
+</LinearLayout>

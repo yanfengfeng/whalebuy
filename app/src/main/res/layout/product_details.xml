@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/blue_2"
+              android:orientation="vertical">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    tools:srcCompat="@tools:sample/avatars"
+                    android:id="@+id/imageView"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="left"
+                    android:drawableTop="@drawable/img_login_x"/>
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="1dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_lj_zhuce"
+                    android:drawablePadding="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="right"
+                    android:drawableRight="@drawable/img_login_next"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+        <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:drawablePadding="3dp"
+                    android:text="¥999"
+                    android:textColor="@color/text_blue999"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥1999"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_16"
+            />
+            <TextView
+                    android:id="@+id/id_tv_fan_jiage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="原生并红大多数啊"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="月销量：999"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_11"/>
+        </LinearLayout>
+        <ImageView
+                android:layout_width="88dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right"
+                android:src="@drawable/img_daifukuan"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/dip_10"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/line_mao_black"
+                    android:textSize="16sp"
+            />
+            <TextView
+                    android:id="@+id/id_tv_fuwu"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极速退货 正品保证"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/line_black"
+                    android:textSize="16sp"
+            />
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="规格"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/line_mao_black"
+                    android:textSize="16sp"
+            />
+            <TextView
+                    android:id="@+id/id_tv_guige"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="选择尺码 正品保证"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/line_black"
+                    android:textSize="16sp"
+            />
+
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="参数"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/line_mao_black"
+                    android:textSize="16sp"
+            />
+            <TextView
+                    android:id="@+id/id_tv_canshu"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="品牌 货号"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/line_black"
+                    android:textSize="16sp"
+            />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="产品带代言"
+            />
+            <TextView
+                    android:id="@+id/id_tv_daiyan_nub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="(18900)"
+            />
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="1dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="查看全部"
+                    android:drawablePadding="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="right"
+                    android:drawableRight="@drawable/arrow_you"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="产品带代言"
+            />
+            <TextView
+                    android:id="@+id/id_tv_daiyan_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="@dimen/dip_10"
+                    android:textColor="@color/text_qian_hui"
+                    android:text="(18900)"/>
+
+        </LinearLayout>
+        <TextView
+                android:id="@+id/id_tv_daiyan_word"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="@dimen/dip_10"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="好看好看，非常喜欢" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="left|center"
+            android:layout_marginTop="@dimen/dip_20"
+            android:orientation="horizontal">
+        <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="@dimen/dip_20"
+                android:src="@drawable/img_daifukuan"/>
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/dip_10"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/id_tv_dian_ming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="3dp"
+                    android:text="老王的店老王"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/id_tv_yugou_nub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="总预购量：10"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/text_size_16"
+            />
+
+        </LinearLayout>
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_daifukuan"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="left|center"
+            android:padding="@dimen/dip_10"
+            android:layout_marginTop="@dimen/dip_20"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="首页"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dip_10"
+                    android:drawableTop="@drawable/home_on"
+                    android:textColor="@color/text_qian_lan"
+                    android:textSize="14sp"
+                  />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收藏"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dip_20"
+                    android:drawableTop="@drawable/home_on"
+                    android:textColor="@color/text_qian_lan"
+                    android:textSize="@dimen/text_size_14"
+            />
+
+
+
+        <TextView
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:text="加入购物车"
+                android:padding="@dimen/dip_10"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dip_30"
+                android:textColor="@color/text_qian_lan"
+                android:textStyle="bold"
+                android:textSize="16sp"
+        />
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="提现我"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/text_qian_lan"
+                android:textSize="@dimen/text_size_16"
+        />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

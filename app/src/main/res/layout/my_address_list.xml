@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/id_rl_choose_bj"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/white">
+
+
+    <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@color/hui_bai_bg"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|center"
+                android:gravity="center"
+                android:drawableLeft="@drawable/img_dizhi_fanhui"/>
+
+        <TextView
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:text="我的地址"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right|center"
+                android:drawableRight="@drawable/img_dizhi_tianjia"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <ListView
+            android:id="@+id/id_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title"
+            android:layout_marginBottom="48dp"
+            android:divider="@null"
+            android:dividerHeight="10dp"
+            android:visibility="gone"
+            android:scrollbars="none"/>
+
+
+    <LinearLayout
+            android:id="@+id/id_ll_lost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="79dp"
+            android:gravity="center"
+            android:orientation="vertical"
+    >
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/img_lost_haitun"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="你还没有添加地址喔！"
+                android:textColor="@color/line_black"
+                android:textSize="16sp"/>
+
+        <Button
+                android:id="@+id/id_bt_tianjia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@drawable/img_lost_box_bg"
+                android:text="添加地址"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14"/>
+    </LinearLayout>
+
+</LinearLayout>

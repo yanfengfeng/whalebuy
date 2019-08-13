@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ID_LAYOUT_TITLE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:background="@color/hui_bai_bg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+             >
+
+            <LinearLayout
+                    android:id="@+id/id_ll_box1"
+                    android:orientation="vertical"
+                    android:layout_width="130dp"
+                    android:background="@drawable/home_box1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_height="match_parent">
+
+
+                <TextView
+                        android:id="@+id/id_tv_box1_biaoti_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="三十元封顶"
+                        android:textColor="@color/line_black"
+                        android:textSize="@dimen/text_size_14"/>
+
+                <TextView
+                        android:id="@+id/id_tv_box1_biaoti_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="60dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:text="每日白菜价"
+                        android:textColor="@color/line_black"
+                        android:textSize="11sp"/>
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="231dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/no_image"
+                        android:id="@+id/id_img_box1"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:id="@+id/ll_two"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/dip_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                        android:id="@+id/ll_two_up"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/ll_two"
+                        android:layout_alignStart="@+id/ll_two">
+
+
+                    <LinearLayout
+                            android:id="@+id/id_box2"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/home_box2"
+                             >
+
+
+                        <TextView
+                                android:id="@+id/id_tv_box2_biaoti"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:layout_margin="5dp"
+                                android:textStyle="bold"
+                                android:text="限时抢购"
+                                android:textColor="@color/line_black"
+                                android:textSize="@dimen/text_size_14"/>
+
+
+                        <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:layout_height="wrap_content"
+                        >
+                            <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/no_image"
+                                    android:id="@+id/imageView3"/>
+                            <!--<ImageView-->
+                                    <!--android:layout_width="100dp"-->
+                                    <!--android:layout_height="100dp"-->
+                                    <!--android:layout_weight="1"-->
+                                    <!--android:background="@drawable/no_image"-->
+                                    <!--android:id="@+id/imageView4"/>-->
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                            android:id="@+id/ll_two_down"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/dip_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                        <!--第四部分-->
+                        <LinearLayout
+                                android:id="@+id/ll_box4"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/home_box3"
+                                android:layout_height="match_parent">
+
+
+                            <TextView
+                                    android:id="@+id/id_tv_box4_biaoti_one"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:text="热销榜单"
+                                    android:textColor="@color/line_black"
+                                    android:textSize="@dimen/text_size_14"/>
+                            <TextView
+                                    android:id="@+id/id_tv_box4_biaoti_two"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:layout_marginLeft="30dp"
+                                    android:gravity="center"
+                                    android:text="24h热销产品"
+                                    android:textColor="@color/line_black"
+                                    android:textSize="9sp"/>
+
+
+                            <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/no_image"
+                                    android:id="@+id/id_img4"/>
+
+                        </LinearLayout>f
+                        <!--第五部分-->
+
+                        <LinearLayout
+                                android:id="@+id/ll_box5"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/home_box3"
+                                android:layout_height="match_parent">
+
+
+                            <TextView
+                                    android:id="@+id/id_tv_box5_biaoti"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:text="九块九包邮"
+                                    android:textColor="@color/line_black"
+                                    android:textSize="@dimen/text_size_14"/>
+
+                            <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:background="@drawable/no_image"
+                                    android:scaleType="fitXY"
+                                    android:id="@+id/id_img_five"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>

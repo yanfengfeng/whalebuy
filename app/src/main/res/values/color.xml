@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+
+    <color name="line_gray">#ffd2d2d2</color>
+    <color name="font_black">#ff333333</color>
+    <color name="title_backgroud">#ff1ba2e8</color>
+    <color name="font_gray">#ff999999</color>
+    <color name="txt_blue">#ff4aa8ff</color>
+    <color name="gray">#ff1f82fa</color>
+    <color name="blue_2">#ff1f82fa</color>
+    <color name="gray_7d">#ff7d7d7d</color>
+    <color name="splite_color">#f1ebebeb</color>
+     <color name="hui_box">#90333333</color>
+     <color name="center_bg">#f2f2f2</color>
+     <color name="sred">#be0000</color>
+     <color name="lightgray">#FFacacac</color>
+     <color name="gray_d7">#ffd7d7d7</color>
+    <color name="bantouming">#96000000</color>
+    <color name="bantouming2">#26E6E8E7</color>
+
+    <color name="black">#000000</color>
+    <color name="blue_bg">#FF4AA8FF</color>
+    <color name="more_black">#333333</color>
+    <color name="line_black">#666666</color>
+    <color name="line_mao_black">#999999</color>
+    <color name="text_blue999">#1AC9FC</color>
+
+   <color name="hui_bai_bg">#FFF7F7F7</color>
+    <color name="text_red">#FFF11313</color>
+
+    <color name="text_qian_hui">#808080</color>
+    <color name="text_qian_lan">#4AA8FF</color>
+
+
+    <color name="text_juhuang">#FFFF8D0A</color>
+
+        <color name="transparent">#00000000</color>
+        <color name="white">#FFFFFF</color>
+
+        <color name="text_color">#F8F8F8</color>
+        <color name="dropdownlist_bg">#d5c9b9</color>
+        <color name="dropdownlist_press">#9d9087</color>
+        <color name="dropdownlist_item">#f2eada</color>
+        <color name="dropdownlist_item_press">#c1b5b7</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroudMain">#f2eeef</color>
+    <color name="colorBackgroudParentView">#ffffff</color>
+
+
+    <!--半透明-->
+    <color name="colorBanTransparent">#11000000</color>
+    <color name="colorWhite">#ffffffff</color>
+
+    <color name="font_orange_color">#FF8E00</color>
+
+
+
+
+    <color name="news_lan">#FF4AA8FF</color>
+    <color name="news_lv">#FF2FE78E</color>
+    <color name="news_zi">#FFC1B6FD</color>
+
+
+</resources>

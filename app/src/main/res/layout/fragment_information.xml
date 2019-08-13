@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFF2F2F2"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+        <TextView
+
+                android:id="@+id/tv_top_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|center"
+                android:text="取消"
+                android:textColor="@color/line_black"
+                android:textSize="@dimen/dip_14"
+                android:gravity="center"
+                />
+
+        <TextView
+                android:id="@+id/tv_top_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="编辑资料"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        <TextView
+
+                android:id="@+id/tv_top_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right|center"
+                android:gravity="center"
+                android:text="完成"
+                android:textColor="@color/blue_bg"
+                android:textSize="14sp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_2"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dip_150"
+                android:gravity="center"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_marginTop="@dimen/dip_20"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/no_image"
+                    android:id="@+id/img_tx"
+            />
+            <TextView
+                    android:id="@+id/tv_genghuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="更换头像"
+                    android:textColor="@color/blue_bg"
+                    android:layout_marginTop="@dimen/dip_10"
+                    android:layout_marginBottom="@dimen/dip_20"
+                    android:textSize="14sp"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/dip_2"
+                android:gravity="left|center"
+                android:background="@color/white"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dip_10"
+                    android:layout_marginRight="@dimen/dip_10"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:text="会员名称"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14"
+            />
+
+            <EditText
+                    android:id="@+id/ed_name"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:textColor="@color/text_qian_hui"
+                    android:textSize="@dimen/text_size_14"
+                    android:background="@null"
+                    android:hint="请输入昵称"
+                    android:gravity="right|center"
+                    android:layout_marginRight="@dimen/dip_20"
+                  />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/dip_2"
+                android:gravity="left|center"
+                android:background="@color/white"
+                android:orientation="horizontal">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dip_10"
+                    android:layout_marginRight="@dimen/dip_10"
+                    android:layout_weight="1"
+                    android:gravity="left|center"
+                    android:text="性别"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14"
+            />
+            <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dip_10"
+                    android:text="男"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:textColor="@color/text_qian_hui"
+                    android:textSize="@dimen/text_size_14"
+                    android:drawablePadding="@dimen/dip_10"
+                    android:drawableRight="@drawable/arrow_you"
+
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

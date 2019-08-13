@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/center_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+
+        <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"
+                android:text="综合"
+                android:id="@+id/tv_zonghe"
+
+        />
+        <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"
+                android:text="价格"
+                android:id="@+id/tv_price"/>
+
+        <TextView
+                android:text="销量"
+                android:id="@+id/tv_xiaoliang"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"
+
+        />
+
+        <TextView
+                android:text="筛选"
+                android:id="@+id/tv_youquan"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"
+
+        />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+            android:id="@+id/ll_zonghe_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bantouming2"
+            android:orientation="vertical">
+
+
+        <TextView
+                android:id="@+id/id_tv_zonghe"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="综合"
+                android:background="@color/white"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"
+
+          />
+        <TextView
+                android:id="@+id/id_tv_new"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="综合"
+                android:background="@color/white"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"/>
+
+        <TextView
+                android:id="@+id/id_tv_pinglun"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:text="评论数从高到低"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/line_mao_black"
+                android:textSize="@dimen/text_size_16"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

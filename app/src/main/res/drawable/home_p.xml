@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:constantSize="false" android:dither="false">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/home_on" /> <!-- pressed -->
+    <item android:state_enabled="false"
+          android:drawable="@drawable/home_on"/>
+    <item android:state_focused="true"
+        android:state_pressed="@drawable/home_on"
+        android:drawable="@drawable/home_off" />
+    <item android:drawable="@drawable/home_off" />
+</selector>
+
+

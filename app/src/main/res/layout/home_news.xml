@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/news_bg"
+              android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+        <TextView
+                android:id="@+id/id_tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left"
+                android:drawableLeft="@drawable/img_wight_fanhui"/>
+        <TextView
+                android:id="@+id/id_tv_new_shanchu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息"
+                android:drawablePadding="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:drawableRight="@drawable/img_new_shanchu"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dip_20"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginRight="@dimen/dip_10"
+            android:paddingTop="10dp"
+            android:paddingBottom="@dimen/dip_20"
+            android:background="@drawable/new_box_bg"
+            android:orientation="horizontal">
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                        android:id="@+id/id_tv_new_jiaoyi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="交易消息"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="9dp"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/img_new_jiaoyi"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                <TextView
+
+                            android:id="@+id/tv_jynews_nub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|right"
+                            android:background="@drawable/img_news_xiao"
+                            android:text="22"
+                            android:gravity="center"
+                            android:textSize="@dimen/text_size_9"
+                            android:textColor="@color/white" />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                        android:id="@+id/id_tv_new_daiyan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="代言消息"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="9dp"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/img_new_daiyan"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|right"
+                            android:background="@drawable/img_news_xiao"
+                            android:text="22"
+                            android:gravity="center"
+                            android:textSize="@dimen/text_size_9"
+                            android:textColor="@color/white"
+                            android:id="@+id/tv_daiyan_news_nub"/>
+
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                        android:id="@+id/id_tv_new_huodong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="活动消息"
+                        android:gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="9dp"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/img_new_hudong"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top|right"
+                            android:background="@drawable/img_news_xiao"
+                            android:text="22"
+                            android:gravity="center"
+                            android:textSize="@dimen/text_size_9"
+                            android:textColor="@color/white"
+                            android:id="@+id/tv_huodong_news_nub"/>
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

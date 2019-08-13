@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/ID_LAYOUT_TITLE"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/hui_bai_bg"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_10"
+            android:paddingRight="@dimen/dip_10"
+            android:orientation="horizontal">
+
+        <CheckBox
+                android:id="@+id/id_choose_shangpin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ID_TXT_DEADLINE"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:button="@drawable/tick_btn"
+                android:contentDescription="@null"
+                android:focusable="false"
+        />
+
+        <ImageView
+                android:id="@+id/ID_IMG_HEAD_PORTRAIT"
+                android:layout_width="@dimen/dip_150"
+                android:layout_height="@dimen/dip_150"
+                android:contentDescription="@null"
+                android:src="@drawable/huiyuan_img"
+        />
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dip_10"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商品描述撒打算打算"
+                    android:gravity="center"
+                    android:textColor="@color/line_black"
+                    android:textSize="13sp"
+            />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="99999人收藏"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/dip_10"
+                    android:textColor="@color/line_mao_black"
+                    android:textSize="13sp"
+
+            />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥199"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/dip_10"
+                    android:gravity="left|center"
+                    android:textColor="@color/text_blue999"
+                    android:textSize="16sp"
+
+            />
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="找相似"
+                        android:layout_marginTop="@dimen/dip_10"
+                        android:gravity="center"
+                        android:textColor="@color/line_mao_black"
+                        android:textSize="16sp"
+
+                />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

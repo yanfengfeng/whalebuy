@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <com.android.whalebuy.views.CanScrollViewPager
+            android:id="@+id/ID_VIEWPAGER"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+    </com.android.whalebuy.views.CanScrollViewPager>
+
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_70"
+            android:gravity="bottom|center_vertical"
+            android:background="@drawable/home_b_bg"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:id="@+id/ll_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/ID_BTN_HOME"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/home_p"
+                    android:gravity="center"
+                    android:text="首页"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_yugou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/ID_BTN_YUGOU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/yugou_p"
+                    android:gravity="center"
+                    android:text="预购"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_daiyan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/ID_BTN_DAIYAN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/daiyan_p"
+                    android:gravity="center"
+                    android:text="代言"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/ll_gouwu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/ID_BTN_GOUWU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/gouwu_p"
+                    android:gravity="center"
+                    android:text="购物"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_my"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/id_tv_my"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:drawableTop="@drawable/my_p"
+                    android:gravity="center"
+                    android:text="我的"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

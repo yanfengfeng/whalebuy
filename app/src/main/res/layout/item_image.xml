@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home_item_bg"
+    android:layout_marginTop="@dimen/dip_10"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <ImageView
+            android:id="@+id/id_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_image" />
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|right"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingRight="@dimen/dip_10"
+        android:background="@color/title_backgroud"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/dip_10"
+            android:paddingTop="@dimen/dip_5"
+            android:layout_gravity="top|right"
+            android:text="返"
+            android:drawablePadding="@dimen/dip_5"
+            android:gravity="center"
+            android:drawableRight="@drawable/home_img_zuan"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_small"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+            <TextView
+                    android:id="@+id/id_tv_nub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/dip_5"
+                    android:paddingTop="@dimen/dip_5"
+                    android:layout_gravity="top|right"
+                    android:text="189"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/font_small"
+                    android:textStyle="bold"
+                    android:typeface="normal"/>
+
+
+</LinearLayout>
+    </FrameLayout>
+
+
+
+    <TextView
+            android:id="@+id/id_tv_yg_nub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="9999人付款"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/home_yh_bg"
+            android:textSize="@dimen/text_size_14"
+            android:typeface="normal" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/id_tv_biaoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="小清新打算的撒打算打算"
+        android:textColor="@color/font_black"
+        android:textSize="@dimen/text_size_12"
+        android:textStyle="bold"
+        android:typeface="normal" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/id_tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="2dp"
+        android:text="¥999"
+        android:textColor="#FF4AA8FF"
+        android:textSize="@dimen/text_size_11"
+        android:typeface="normal" />
+
+        <TextView
+                android:id="@+id/id_tv_fan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全返"
+                android:layout_marginLeft="@dimen/dip_70"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/home_qf_bg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_11"
+                android:typeface="normal" />
+
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginTop="5dp" />-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/home_bh_bg"
+            android:layout_height="20dp">
+
+        <ImageView
+                android:id="@+id/id_img_xin_off"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_xin_off" />
+
+        <ImageView
+                android:id="@+id/id_img_xin_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                android:src="@drawable/img_xin_on" />
+    </LinearLayout>
+
+</LinearLayout>

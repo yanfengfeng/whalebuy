@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/ID_LAYOUT_TITLE"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/title_backgroud"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+           >
+            
+            <TextView
+                android:id="@+id/ID_TXT_TITLE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_normal" />
+            
+            <Button
+                android:id="@+id/ID_BTN_LEFT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/txt_blue"
+                android:textSize="@dimen/font_normal"
+                android:background="@drawable/btn_back_selector"
+                android:layout_gravity="left|center_vertical"
+                 />
+                        
+            <Button
+                android:id="@+id/ID_BTN_RIGHT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal"
+                android:visibility="gone"
+                 />            
+        </FrameLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff1076a8" />
+    </LinearLayout>
+
+</merge>

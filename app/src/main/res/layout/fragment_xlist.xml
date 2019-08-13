@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/merge_title" />
+
+    <com.people_sports.sports.views.HorizontalListView
+        android:id="@+id/ID_LIST_CHOOSE"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/title_backgroud" >
+    </com.people_sports.sports.views.HorizontalListView>
+    
+    <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ff1076a8" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.people_sports.sports.views.XListView
+            android:id="@+id/ID_LIST_VIEW"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null" >
+        </com.people_sports.sports.views.XListView>
+
+        <ImageView
+            android:id="@+id/ID_IMG_RELOAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/biz_pic_empty_view"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

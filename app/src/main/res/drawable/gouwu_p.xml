@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:constantSize="false" android:dither="false">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/gouwu_on" /> <!-- pressed -->
+    <item android:state_enabled="false"
+          android:drawable="@drawable/gouwu_on"/>
+    <item android:state_focused="true"
+        android:state_pressed="@drawable/gouwu_on"
+        android:drawable="@drawable/gouwu_off" />
+    <item android:drawable="@drawable/gouwu_off" />
+</selector>
+
+

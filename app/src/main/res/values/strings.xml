@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">鲸买</string>
+    <string name="action_settings">Settings</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="loading">努力加载中...</string>
+    <string name="exit_tip">再按一次退出app</string>
+
+    <string name="home">首页</string>
+    <string name="my">我的</string>
+
+    <string name="phone_num">请输入手机号</string>
+    <string name="login">登 录</string>
+    <string name="check_code_hint">请输入短信验证码</string>
+    <string name="btn_check_code">获取验证码</string>
+    <string name="submit">提交</string>
+
+    <string name="account_error">请输入正确的手机号</string>
+
+    <!-- 错误码信息 -->
+    <string name="unknown_error">未知的错误码:</string>
+    <string name="error_network">网络错误,请重试</string>
+    <string name="error_server">服务器异常,请稍后再试</string>
+
+    <!--        个人  登录 -->
+
+    <string name="user_login">用户登录</string>
+
+    <string name="login_zhuce">注册</string>
+    <string name="login_lj_zhuce">立即注册</string>
+    <string name="send_code">发送验证码</string>
+    <string name="put_code">请输入验证码</string>
+    <string name="put_pwd">请输入密码</string>
+    <string name="put_pwd_two">再次输入你的密码</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="put_phone">电话号码</string>
+
+    <string name="title_activity_shopping_cart">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
+        history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

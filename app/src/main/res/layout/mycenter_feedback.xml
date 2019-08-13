@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:background="@color/blue_bg"
+            android:orientation="horizontal">
+        <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|center"
+                android:gravity="center"
+                android:drawableLeft="@drawable/img_wight_fanhui"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="反馈"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right|center"
+                android:drawableRight="@drawable/img_lingdang"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                android:textSize="16sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+
+        <EditText
+                android:id="@+id/edtxt_gave_word"
+                android:layout_width="wrap_content"
+                android:layout_height="355dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_feedback"
+                android:gravity="left|top"
+                android:hint="问题描述"
+                android:textColorHint="@color/black"
+                android:maxLength="500"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:textColor="@color/line_black"
+                android:textSize="14sp">
+        </EditText>
+
+    </LinearLayout>
+
+    <!--<com.hezhi.android.fanqievideo.widget.CustomText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="如果有问题请致电40000000"-->
+        <!--android:textSize="14sp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/feedback_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/blue_bg"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

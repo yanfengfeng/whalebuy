@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:id="@+id/ID_LAYOUT_TITLE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/home_bg"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+            <TextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="left"
+                    android:drawableTop="@drawable/img_login_x"/>
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="1dp"/>-->
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="六月新预购"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="right"
+                    android:drawableRight="@drawable/img_login_next"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+            <TextView
+                    android:id="@+id/ID_BTN_HOME"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="服装"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+
+
+            <TextView
+                    android:id="@+id/ID_BTN_YUGOU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="美妆"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+
+
+            <TextView
+                    android:id="@+id/ID_BTN_GOUWU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="美食"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+
+
+            <TextView
+                    android:id="@+id/ID_BTN_MY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawablePadding="2dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="居家"
+                    android:textColor="@drawable/txt_white_selector"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+
+        <!--<View-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="100dp"/>-->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+        <TextView
+
+                android:id="@+id/id_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="距离预购结束还有3天"
+                android:drawablePadding="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第三方登陆"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/font_gray"
+                android:textSize="16sp"/>
+
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:id="@+id/imageView"/>
+
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:gravity="center"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+
+            <View
+                    android:layout_width="100dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第三方登陆"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/font_gray"
+                    android:textSize="16sp"/>
+            <View
+                    android:layout_width="100dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+            />
+        </LinearLayout>
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="25dp"-->
+            <!--android:text="@string/login_zhuce"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textColor="@color/line_black"-->
+            <!--android:textSize="20sp"/>-->
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="vertical">
+
+
+                <TextView
+
+                        android:id="@+id/id_tv_phone_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="手机号快捷登陆"
+                        android:drawablePadding="5dp"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/font_gray"
+                        android:textSize="20sp"/>
+
+                <TextView
+                        android:id="@+id/id_tv_zh_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="账号密码登陆"
+                        android:drawablePadding="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/font_gray"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="账号密码登陆"
+                android:drawablePadding="5dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="right"
+                android:background="@color/gray"
+                android:textColor="@color/font_gray"
+                android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:gravity="center"
+                android:layout_marginRight="25dp"
+                android:orientation="horizontal">
+
+
+            <View
+                    android:layout_width="100dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+            />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="第三方登陆"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/font_gray"
+                    android:textSize="16sp"/>
+            <View
+                    android:layout_width="100dp"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</merge>

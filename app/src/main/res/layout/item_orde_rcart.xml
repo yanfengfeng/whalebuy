@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/ID_LAYOUT_TITLE"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:orientation="horizontal">
+
+        <CheckBox
+                android:id="@+id/id_choose_dianpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ID_TXT_DEADLINE"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:button="@drawable/tick_btn"
+                android:contentDescription="@null"
+                android:focusable="false"
+        />
+        <TextView
+                android:id="@+id/id_tv_dian_ming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="后知后觉的品牌店"
+                android:drawablePadding="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:drawableRight="@drawable/arrow_you"
+                android:textColor="#FF000000"
+                android:textSize="16sp"/>
+    </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/dip_10"
+                    android:layout_marginBottom="@dimen/dip_10"
+                    android:paddingBottom="@dimen/dip_10"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                        <CheckBox
+                                android:id="@+id/id_choose_shangpin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignLeft="@+id/ID_TXT_DEADLINE"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="10dp"
+                                android:button="@drawable/tick_btn"
+                                android:contentDescription="@null"
+                                android:focusable="false"
+                        />
+
+                        <ImageView
+                                android:id="@+id/ID_IMG_HEAD_PORTRAIT"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginTop="10dp"
+                                android:contentDescription="@null"
+                                android:src="@drawable/huiyuan_img"
+                             />
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dip_10"
+                                android:orientation="vertical">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="商品描述撒打算打算"
+                                android:gravity="center"
+                                android:textColor="@color/line_mao_black"
+                                android:textSize="13sp"
+                        />
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4¥"
+                                android:gravity="center"
+                                android:textColor="@color/text_red"
+                                android:textSize="13sp"
+
+                        />
+                        </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:id="@+id/id_ll_dj_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="right|center"
+                        android:orientation="horizontal" >
+
+                    <Button
+                            android:id="@+id/id_jian"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/order_lose"/>
+
+                    <EditText
+                            android:id="@+id/id_buy_nub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/order_box"
+                            android:editable="false"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:textColor="@color/white"/>
+
+                    <Button
+                            android:id="@+id/id_jia"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/order_add">
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dip_10"
+            android:layout_marginLeft="@dimen/dip_10"
+            android:layout_marginRight="@dimen/dip_10"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="据付款结束还有两小时"
+                android:gravity="center"
+                android:textColor="@color/text_red"
+                android:textSize="9sp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                android:gravity="center"
+                android:textColor="@color/text_blue999"
+                android:textSize="16sp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dip_30"
+                android:text="取消订单"
+                android:gravity="center"
+                android:textColor="@color/text_blue999"
+                android:textSize="16sp"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dip_30"
+                android:text="立即付款"
+                android:gravity="center"
+                android:textColor="@color/text_blue999"
+                android:textSize="16sp"
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

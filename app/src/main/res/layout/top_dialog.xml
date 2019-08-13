@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/center_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/center_bg"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/compound"
+                android:background="@color/white">
+
+            <TextView
+                    android:id="@+id/tv_zonghe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:text="综合"
+                    android:gravity="center_vertical"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"/>
+
+            <ImageView
+                    android:id="@+id/btn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@+id/text"
+                    android:src="@drawable/dropdown"
+                    android:padding="5dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="价格"
+                android:background="@color/white"
+                android:textColor="@color/line_black"
+                android:textSize="@dimen/text_size_16"/>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white">
+
+            <TextView
+                    android:id="@+id/tv_xl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:text="销量"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:textColor="@drawable/txt_hui_huang_selector"
+                    android:singleLine="true"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white">
+
+            <TextView
+                    android:id="@+id/tv_quan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:text="有券"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:textColor="@drawable/txt_hui_huang_selector"
+                    android:singleLine="true"/>
+
+            <ImageView
+                    android:id="@+id/img_quan_down"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@+id/text"
+                    android:src="@drawable/dropdown"
+                    android:padding="5dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

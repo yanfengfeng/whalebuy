@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:orientation="horizontal">
+
+
+                <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        tools:srcCompat="@tools:sample/avatars"
+                        android:id="@+id/img_tx"
+                />
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <TextView
+                            android:id="@+id/id_tv_dd_zhuangtai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="您的订单已经牵手"
+                            android:textStyle="bold"
+                            android:textColor="@color/line_black"
+                            android:textSize="16sp"/>
+                    <TextView
+                            android:id="@+id/id_tv_news"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="asdasdasdasdasdasdasdasdasdsa"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textColor="@color/line_black"
+                            android:textSize="14sp"/>
+                    <TextView
+                            android:id="@+id/id_tv_laizi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="asdasdasdasdasdas"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textColor="@color/line_black"
+                            android:textSize="14sp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+
+                        android:id="@+id/id_tv_timen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19-06-11"
+                        android:layout_gravity="right"
+                        android:drawablePadding="5dp"
+                        android:textColor="@color/line_black"
+                        android:textSize="14sp"/>
+            </LinearLayout>
+
+
+
+
+</LinearLayout>

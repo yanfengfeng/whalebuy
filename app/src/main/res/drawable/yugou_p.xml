@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:constantSize="false" android:dither="false">
+    <item android:state_pressed="true"
+          android:drawable="@drawable/yugou_on" /> <!-- pressed -->
+    <item android:state_enabled="false"
+          android:drawable="@drawable/yugou_on"/>
+    <item android:state_focused="true"
+        android:state_pressed="@drawable/yugou_on"
+        android:drawable="@drawable/yugou_off" />
+    <item android:drawable="@drawable/yugou_off" />
+</selector>

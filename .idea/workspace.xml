@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_3" />
+        <device id="pixel_xl" />
+        <target>android-27</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.androiyd.whalebuy" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>recyclerview-v7</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jetbrains.kotlin</group-id>
+        <name>kotlin-stdlib-jdk7</name>
+        <version>1.3.40</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>appcompat-v7</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support</group-id>
+        <name>support-v4</name>
+        <version>28.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.constraint</group-id>
+        <name>constraint-layout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test</group-id>
+        <name>runner</name>
+        <version>1.0.2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.android.support.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.0.2</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1561017220199</last-search-timestamp>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5c26eb9-46ce-4007-b2ea-848ed17fe493" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="whalebuy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="whalebuy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onActivityResult</find>
+      <find>WRITE_SETTINGS</find>
+      <find>ACCESS_WIFI_STATE</find>
+      <find>CHANGE_WIFI_STATE</find>
+      <find>READ_PHONE_STATE</find>
+      <find>WRITE_EXTERNAL_STORAGE</find>
+      <find>READ_EXTERNAL_STORAGE</find>
+      <find>ACCESS_NETWORK_STATE</find>
+      <find>CHANGE_NETWORK_STATE</find>
+      <find>HomeModelImpl</find>
+      <find>getHome</find>
+      <find>Launching activity</find>
+      <find>HomeFragment</find>
+      <find>TabLayout</find>
+      <find>tl_activitytwo_title</find>
+      <find>tlActivitytwoTitle</find>
+      <find>vp_activitytwo_content</find>
+      <find>getSupportFragmentManager</find>
+      <find>vpActivitytwoContent</find>
+      <find>fragmentList</find>
+      <find>imageUrl</find>
+      <find>tv_fankui</find>
+      <find>ID_VIEWPAGER</find>
+      <find>ll_yugou</find>
+      <find>getHomeData</find>
+      <find>mBannerList</find>
+      <find>setNoticeItem</find>
+      <find>setFenLeiItem</find>
+      <find>setHuoDongItem</find>
+      <find>setTuijianItem</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ShoppingCartActivity</replace>
+      <replace>ActivityMy</replace>
+      <replace>PreorderActivity</replace>
+      <replace>EmdorsemntActivity</replace>
+      <replace>MyActivity</replace>
+      <replace>FragmentHomePage</replace>
+      <replace>HomeFragment</replace>
+      <replace>MyFragment</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../FZLibrary" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/popumenu_animation_show.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/anim/popumenu_animation_hide.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/utils/PopupWindowUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/utils/ScreenUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/pop_list1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_pop.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/utils/AbScreenUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/utils/ConfigUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_shaixuan.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/top_dialog.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/sysdk_anim.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/FoodFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/shaixuan.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main22.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_last_time_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomePageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/publics/ActivityWelcome.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/publics/HomePageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/publics/FragmentFunctionPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/publics/HomePage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_nine_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_sanshiyuan_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/SanShiYanFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_sellwell_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/SellWellFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/LastMinuteFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/NineYuanFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/SearchFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/home_news.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/MyNewsFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/common.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/ShaiXuanFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataPackage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_image.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/goods_details.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/DetailFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_home_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeConvertFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/MainApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/my/LoginFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/data/DataModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataParse.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_image_two.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="36" />
+    <option name="y" value="97" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="whalebuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whalebuy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="whalebuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whalebuy" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/tools/Android/sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="device.picker.selection" value="D5F0218B02004299" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/android/whalebuy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/runtime/unicompay_ref.jar" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.android.whalebuy.fragment.home" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.android.whalebuy.fragment.shoppingcart" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/libs" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/common" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.android.whalebuy.fragment.home" />
+      <recent name="com.android.whalebuy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/utils" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.android.whalebuy.fragment.home" />
+      <recent name="com.android.whalebuy.utils" />
+      <recent name="com.android.whalebuy.fragment.my" />
+      <recent name="com.android.whalebuy.views" />
+      <recent name="com.android.whalebuy.presenter" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.android.whalebuy.fragment.home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5c26eb9-46ce-4007-b2ea-848ed17fe493" name="Default" comment="" />
+      <created>1558849532356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558849532356</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="36" y="97" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37862596" visible="true" weight="0.21728595" />
+      <window_info id="Structure" order="1" sideWeight="0.6213741" side_tool="true" weight="0.22132471" />
+      <window_info id="Resources Explorer" order="2" sideWeight="0.31970802" weight="0.3290735" />
+      <window_info id="Captures" order="3" sideWeight="0.50728154" side_tool="true" weight="0.319063" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" sideWeight="0.58441556" side_tool="true" weight="0.31663975" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.68029195" side_tool="true" weight="0.32956383" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.6187399" weight="0.26901874" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44022617" weight="0.071532845" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8887114" weight="0.5402985" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.8173589" visible="true" weight="0.4160584" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.49946696" weight="0.04379562" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985073" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.11128861" side_tool="true" weight="0.6186528" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" order="13" visible="true" weight="0.329927" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.45638126" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.32960597" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.1720517" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="StringPreview" order="9" />
+      <window_info anchor="right" id="Assistant" order="10" weight="0.3290735" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.37862596" visible="true" weight="0.25121164" />
+      <window_info id="Structure" order="1" sideWeight="0.6213741" side_tool="true" weight="0.22132471" />
+      <window_info id="Resources Explorer" order="2" sideWeight="0.31970802" weight="0.3290735" />
+      <window_info id="Captures" order="3" sideWeight="0.50728154" side_tool="true" weight="0.319063" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" sideWeight="0.58441556" side_tool="true" weight="0.31663975" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.68029195" side_tool="true" weight="0.32956383" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.6187399" weight="0.26901874" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44022617" weight="0.071532845" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8887114" visible="true" weight="0.18059702" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.8173589" weight="0.68955225" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Logcat" order="9" sideWeight="0.49946696" weight="0.04379562" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.11128861" side_tool="true" weight="0.6186528" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.17689823" />
+      <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" weight="0.32960597" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.1720517" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="StringPreview" order="9" />
+      <window_info anchor="right" id="Assistant" order="10" weight="0.3290735" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/my/LoginRegisterFragment.java</url>
+          <line>326</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/my/LoginForgetFragment.java</url>
+          <line>188</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/shoppingcart/AllOrderFragment.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataPackage.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/my/MyFragment.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java</url>
+          <line>544</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/FoodFragment.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataParse.java</url>
+          <line>257</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataParse.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java</url>
+          <line>348</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java</url>
+          <line>299</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java</url>
+          <line>453</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="response" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>response</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>step out</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_notice.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_orde_rcart.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_pop.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_splite.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_upview.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_video_title.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itme_converssion.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listview_item.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_forget.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/merge_title.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mycenter_feedback.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notification_message_pic.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/order_details_information.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pager_item_four.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pager_item_one.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/parent_view.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/relative_item_view.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/shaixuan.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/top_dialog.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/product_details.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/SearchFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/SellWellFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/goods_details.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/DetailFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_home_fenlei.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_home_activity.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_image.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/publics/FragmentFunctionPage.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home_list.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_upview.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/FoodFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/home_tuijian.xml" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7607c53acaff9dbc98a308fd4c0ef075/jars/classes.jar!/android/support/v4/app/FragmentManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeConvertFragment.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7d2a7be990b67188eaf060279639b52/jars/classes.jar!/com/sdk/mobile/manager/login/cucc/OauthActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/widget/ToastUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+          <folding>
+            <element signature="e#1232#1379#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="82" column="53" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/widget/ImageRollView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/app/libs/android-async-http-1.4.6.jar!/com/loopj/android/http/JsonHttpResponseHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#2468#3569#0" expanded="true" />
+            <element signature="e#3568#3569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/login_denglu_zh.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="383" column="25" selection-start-line="383" selection-start-column="25" selection-end-line="383" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/data/DataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2202">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_image_two.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#261#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="259" column="39" selection-start-line="259" selection-start-column="28" selection-end-line="259" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/kernel/DataPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/home/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="600" selection-start-line="600" selection-end-line="600" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/whalebuy/fragment/my/LoginFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="479" selection-start-line="479" selection-end-line="479" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 11 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

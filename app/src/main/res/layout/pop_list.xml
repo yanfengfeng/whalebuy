@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_content"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#3f000000"
+    android:gravity="center_horizontal|bottom" >
+    
+    <RelativeLayout 
+        android:id="@+id/rl_pop_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+        
+    <RelativeLayout 
+        android:id="@+id/pop_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/white">
+        
+    <TextView 
+        android:id="@+id/pop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+    
+    <Button 
+        android:id="@+id/pop_cacel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="取消"
+        android:layout_margin="@dimen/dip_10"
+        android:textColor="@color/black"/>
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/pop_list"
+        android:layout_width="fill_parent"
+        android:layout_height="230dp"
+        android:layout_below="@id/pop_rl"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:scrollbars="none"
+        android:dividerHeight="1dp"
+        android:divider="@color/black"/>
+    </RelativeLayout>
+
+</LinearLayout>
