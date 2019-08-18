@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import com.android.whalebuy.R;
 import com.android.whalebuy.adapter.recyclerview.BaseRcvAdapter;
 import com.android.whalebuy.adapter.recyclerview.RcvViewHold;
+import com.android.whalebuy.adapter.recyclerview.RecylerViewClicListern;
 import com.android.whalebuy.common.BaseFragment;
 
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ import java.util.List;
  * Created by Administrator on 2019/8/17.
  */
 
-public class GridFragment extends BaseFragment {
+public class GridFragment extends BaseFragment   {
 
     List<String> list = new ArrayList<>();
 
@@ -46,8 +47,14 @@ public class GridFragment extends BaseFragment {
             }
 
             @Override
-            public void bindView(RcvViewHold holder, Object bean, int index) {
+            public void bindView(RcvViewHold holder, final Object bean, int index) {
                 holder.setTextViewValue(R.id.tv_name, bean.toString());
+                holder.getView(R.id.grid_view).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        toast("click==" + bean);
+                    }
+                });
             }
 
 
@@ -61,4 +68,5 @@ public class GridFragment extends BaseFragment {
         }
         rcv.getAdapter().notifyDataSetChanged();
     }
+
 }

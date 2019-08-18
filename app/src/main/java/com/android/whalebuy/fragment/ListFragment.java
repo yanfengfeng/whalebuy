@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import com.android.whalebuy.R;
 import com.android.whalebuy.adapter.recyclerview.BaseRcvAdapter;
 import com.android.whalebuy.adapter.recyclerview.RcvViewHold;
+import com.android.whalebuy.adapter.recyclerview.RecylerViewClicListern;
 import com.android.whalebuy.common.BaseFragment;
 
 import java.util.ArrayList;
@@ -45,8 +46,14 @@ public class ListFragment extends BaseFragment {
             }
 
             @Override
-            public void bindView(RcvViewHold holder, Object bean, int index) {
-                    holder.setTextViewValue(R.id.tv_name,bean.toString());
+            public void bindView(RcvViewHold holder, final Object bean, int index) {
+                holder.setTextViewValue(R.id.tv_name, bean.toString());
+                holder.getView(R.id.list_view).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        toast("click==" + bean);
+                    }
+                });
             }
 
         });
@@ -59,4 +66,6 @@ public class ListFragment extends BaseFragment {
         }
         rcv.getAdapter().notifyDataSetChanged();
     }
+
+
 }

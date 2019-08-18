@@ -8,6 +8,7 @@ import android.view.View.OnClickListener;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import com.android.whalebuy.R;
+import com.android.whalebuy.widget.ToastUtils;
 
 
 public class BaseFragment extends Fragment
@@ -52,5 +53,9 @@ public class BaseFragment extends Fragment
 	    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
 		imm.hideSoftInputFromWindow(getView().getWindowToken(), 0); 
     }
+
+    protected void toast(String msg){
+		ToastUtils.showLong(getContext(),msg);
+	}
 
 }

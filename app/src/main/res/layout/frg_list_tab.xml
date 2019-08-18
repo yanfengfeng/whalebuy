@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/iv_grid"
+        android:id="@+id/iv_list"
         android:layout_width="@dimen/dip_60"
         android:layout_height="@dimen/dip_60"
         android:layout_margin="@dimen/dip_10"
@@ -16,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dip_10"
         android:layout_marginTop="@dimen/dip_10"
-        android:layout_toRightOf="@id/iv_grid"
+        android:layout_toRightOf="@id/iv_list"
         android:text="@string/account_error" />
 
 
@@ -27,7 +28,7 @@
         android:layout_below="@id/tv_name"
         android:layout_marginLeft="@dimen/dip_10"
         android:layout_marginTop="@dimen/dip_5"
-        android:layout_toRightOf="@id/iv_grid"
+        android:layout_toRightOf="@id/iv_list"
         android:text="@string/app_name" />
 
 </RelativeLayout>
