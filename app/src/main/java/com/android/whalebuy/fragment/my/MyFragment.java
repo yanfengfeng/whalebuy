@@ -13,6 +13,7 @@ import com.android.whalebuy.IConstants;
 import com.android.whalebuy.R;
 import com.android.whalebuy.common.BaseFragment;
 import com.android.whalebuy.data.DataModel;
+import com.android.whalebuy.fragment.TabChangeAc;
 import com.android.whalebuy.fragment.shoppingcart.AllOrderFragment;
 import com.android.whalebuy.fragment.shoppingcart.OneStyleActivity;
 import com.android.whalebuy.fragment.shoppingcart.TwoStyleActivity;
@@ -113,6 +114,8 @@ public class MyFragment extends BaseFragment implements View.OnClickListener,IFr
     }
     @Override
     public void onClick(View v) {
+
+        Intent intent;
         switch (v.getId()){
 
            case R.id.id_tv_setting:
@@ -124,6 +127,9 @@ public class MyFragment extends BaseFragment implements View.OnClickListener,IFr
            break;
             case R.id.id_tv_shoucang:
                 Toast.makeText(getActivity(), "跳转收藏列表", Toast.LENGTH_SHORT).show();
+                  intent = new Intent();
+                intent.setClass(getActivity(), TabChangeAc.class);
+                startActivity(intent);
 
                 break;
             case R.id.id_tv_xiangyao:
@@ -138,7 +144,7 @@ public class MyFragment extends BaseFragment implements View.OnClickListener,IFr
 //                        ,AllOrderFragment.create())
 //                        .addToBackStack(IConstants.FRAGMENT_LOGIN).commit();
 
-                Intent intent = new Intent();
+                  intent = new Intent();
                 intent.setClass(getActivity(), TwoStyleActivity.class);
                 startActivity(intent);
 
